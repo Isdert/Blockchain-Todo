@@ -79,7 +79,7 @@ class Todo:
         '''
         if self.chain.check():
             print('审查完成,当前Blockchain_Todo数据安全')
-            print('建议定期审查,确保数据完整和安装')
+            print('建议定期审查,确保数据完整和安全')
         else:
             print('当前Blockchain_Todo数据疑似遭到修改! 建议提交反馈给Crillerium')
             print('提交地址: https://github.com/crillerium/blockchain-todo/issues')
