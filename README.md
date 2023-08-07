@@ -9,6 +9,7 @@
 3. 显示所有任务
 4. 显示指定任务详情
 5. 完成指定任务
+6. 检测任务清单数据安全
 
 # Installation
 ## 安装
@@ -26,3 +27,5 @@ pip install blockchain-todo
 `todo add`添加一个任务  
 `todo show <序号>` 展示序号对应的任务详情  
 `todo done <序号>` 完成序号对应的任务  
+`todo check` 对数据进行安全审查
+ 
